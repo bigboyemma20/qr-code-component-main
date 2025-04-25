@@ -26,7 +26,6 @@ body{
 
 
 .card {
-width: 320px;
     width: 320px;
     overflow: hidden;
     background-color: var(--White);
@@ -35,24 +34,34 @@ width: 320px;
 }
 
 img {
-border-radius: 10px;    max-width: 100%;
- 
+    border-radius: 10px;    
+    max-width: 100%;
+    
 }
 
 .cardTitle{
     padding-top: 20px;
- 
     color: var(--Slate900);
     font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
 }
+
 
 .cardDescription{
     font-size: 15px;
     color: var(--Slate500);
-    padding: 20px;
+    padding: 20px 20px 0 20px; 
+    letter-spacing: 0.3px;
+    font-weight: 400;
 }
 
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  padding-top: 20px;
+}
 
-
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
