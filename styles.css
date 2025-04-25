@@ -33,7 +33,7 @@ body{
     padding: 16px 16px 40px 16px;
 }
 
-img {
+.cardImage {
     border-radius: 10px;    
     max-width: 100%;
     
